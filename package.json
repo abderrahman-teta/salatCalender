@@ -1,0 +1,25 @@
+{
+  "name": "salati_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Abderrahman Teta",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nodemon":"*"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "hijri-date": "^0.2.2",
+    "mongoose": "^5.4.17",
+    "pug": "^2.0.3"
+  }
+}
