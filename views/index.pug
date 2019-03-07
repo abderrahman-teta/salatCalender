@@ -4,6 +4,30 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Document
+        link(rel="stylesheet", href="/css/style.css")
+        title Salat Times Calender
     body
-        h1=title
+        .card-form
+            p=title
+            form(method="POST",action="/save").signup
+                .form-title اوقات الصلاة 
+                .form-body
+                    .row
+                        input(type='text' placeholder='التاريخ الهجري مثال : 1440-07-29' name="date_hijri")
+                        
+                    .row
+                        
+                        input(type='time' name="fajer")
+                        span : الغجر
+                    .row
+                        input(type='time' name="doher")
+                        span  :الظهر
+                    .row
+                        input(type='time' name="aser" )
+                        span  : العصر
+                    .row
+                        input(type='time' name="maghrib")   
+                        span  : المغرب                     
+                .form-footer
+                    
+                    button(type='submit') حفظ
