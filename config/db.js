@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://abderraahman:abdoteta1234567@salati-lblj7.mongodb.net/test?retryWrites=true')
+mongoose.connect('mongodb://abderrahman:abdoteta1995@ds261155.mlab.com:61155/salati')
 
 module.exports = mongoose
