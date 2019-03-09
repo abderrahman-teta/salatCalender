@@ -14,20 +14,20 @@ html(lang="en")
                 .form-title اوقات الصلاة 
                 .form-body
                     .row
-                        input(type='text' placeholder='التاريخ الهجري مثال : 1440-07-29' name="date_hijri")
+                        input(type='text' placeholder='التاريخ الهجري مثال : 1440-07-29' name="date_hijri" required)
                         
                     .row
                         
-                        input(type='time' name="fajer")
+                        input(type='time' name="fajer" required)
                         span : الغجر
                     .row
-                        input(type='time' name="doher")
+                        input(type='time' name="doher" required)
                         span  :الظهر
                     .row
-                        input(type='time' name="aser" )
+                        input(type='time' name="aser" required)
                         span  : العصر
                     .row
-                        input(type='time' name="maghrib")   
+                        input(type='time' name="maghrib" required)   
                         span  : المغرب                     
                 .form-footer
                     
