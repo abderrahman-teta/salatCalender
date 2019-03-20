@@ -10,6 +10,7 @@ function addNewDay(req,res) {
     const times = [
         {
             "الفجر":req.body.fajer,
+            "الشروق":req.body.shou,
             "الظهر":req.body.doher,
             "العصر":req.body.aser,
             "المغرب":req.body.maghrib,
